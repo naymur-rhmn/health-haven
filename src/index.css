@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-archivo scroll-smooth;
+  }
+
+  .single-specialities {
+    @apply flex flex-col gap-2 justify-center items-center p-5 h-36 transition;
+  }
+  .single-specialities:hover {
+    @apply bg-primary shadow-lg text-white rounded-md;
+  }
+}
+
+/* react slick customized style */
+.slick-slider .slick-track {
+  display: flex;
+  gap: 20px;
+}
+
+.slick-slide {
+  overflow: hidden;
+}
+
+@keyframes zoomOut {
+  0% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.hero .slick-slide img {
+  transform-origin: center center;
+  animation: zoomOut 6s linear infinite alternate;
+}
+.hero .slick-slider .slick-track {
+  display: flex;
+  gap: 0px;
+}

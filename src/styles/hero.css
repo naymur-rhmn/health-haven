@@ -1,0 +1,55 @@
+.hero-bg {
+  position: relative;
+  z-index: 1;
+  height: calc(100vh - 110px);
+}
+.hero-bg-1:before {
+  background-image: url(../assets/banner/banner-1.jpg);
+}
+.hero-bg-2:before {
+  background-image: url(../assets/banner/banner-2.jpg);
+}
+.hero-bg-3:before {
+  background-image: url(../assets/banner/banner-5.jpg);
+}
+
+.hero-bg:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background-color: rgb(88, 167, 122);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}
+.hero-bg::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background-color: rgba(48, 57, 52, 0.698);
+  z-index: -1;
+  opacity: 0.4;
+}
+/* .slick-slide.slick-active .hero-bg::before {
+  animation: zoomOut 6.2s linear infinite;
+}
+.slick-cloned .hero-bg:before {
+  animation: zoomOut 6.5s linear infinite;
+} */
+
+@keyframes zoomOut {
+  0% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

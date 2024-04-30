@@ -1,8 +1,8 @@
 import React from "react";
 
-function SectionTitle({ subTitle, title }) {
+function SectionTitle({ subTitle, title, customTextAlign }) {
   return (
-    <div className="text-center">
+    <div className={`${customTextAlign}`}>
       <p className="text-secondary  uppercase text-sm font-bold tracking-widest">
         {subTitle}
       </p>

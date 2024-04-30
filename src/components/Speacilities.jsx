@@ -17,7 +17,11 @@ function Speacilities() {
     <section className="bg-white py-8">
       <div className="container  max-w-screen-xl px-4 md:px-12 mx-auto">
         <div>
-          <SectionTitle subTitle="always caring" title="Our Speacialities" />
+          <SectionTitle
+            subTitle="always caring"
+            title="Our Speacialities"
+            customTextAlign="text-center"
+          />
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 mt-8 sm:mt-12 md:mt-16">

@@ -26,16 +26,16 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className="sticky top-0 shadow-2xl z-30">
+    <nav className="sticky -top-[0.5px] shadow-2xl z-30">
       {/* nav section */}
       <div className="bg-primary relative z-20">
         <div className="container  max-w-screen-xl mx-auto  px-4 md:px-8">
-          <div className="flex justify-between items-center h-[70px] sticky top-0">
+          <div className="flex justify-between items-center h-[75px] sticky top-0">
             {/* logo */}
             <div className="text-white">logo here</div>
             {/* menu */}
-            <ul className="hidden md:flex gap-6 text-white font-poppins font-medium text-sm">
-              <NavLinks color="text-tone" weight="font-normal" />
+            <ul className="hidden md:flex gap-6 text-black font-poppins  font-medium text-normal">
+              <NavLinks color="text-tone" weight="font-semibold" />
             </ul>
             {/* appoinment btn */}
             <div className="hidden md:block">

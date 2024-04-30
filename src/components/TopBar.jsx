@@ -8,8 +8,8 @@ import {
 
 function TopBar() {
   return (
-    <div className="bg-black text-white py-2 relative z-50">
-      <div className="max-w-screen-xl mx-auto px-4 md:px-8 flex justify-between items-center">
+    <div className="bg-black text-white relative z-50 ">
+      <div className="max-w-screen-xl mx-auto px-4 md:px-8 flex justify-between items-center  h-[35px]">
         {/* social icons */}
         <div className="flex gap-3">
           <a href="#">

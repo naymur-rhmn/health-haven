@@ -24,7 +24,7 @@ function Speacilities() {
           />
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 mt-8 sm:mt-12 md:mt-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 mt-8 md:mt-12">
           <div className="md:grid md:grid-cols-2  md:border-r-[1px] text-center">
             <div className="single-specialities">
               <img className="w-10 h-10" src={heart} alt="Cardiology" />

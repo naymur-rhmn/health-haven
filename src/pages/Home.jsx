@@ -13,10 +13,10 @@ function Home() {
       <Hero />
       <Bookings />
       <AboutUs />
-      {/* <Doctors /> */}
+      <Doctors />
       <Speacilities />
-      {/* <Invoice /> */}
-      {/* <ContactInfo /> */}
+      <Invoice />
+      <ContactInfo />
     </div>
   );
 }

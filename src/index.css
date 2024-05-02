@@ -22,7 +22,7 @@
 /* react slick customized style */
 .slick-slider .slick-track {
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
 .slick-slide {
@@ -90,4 +90,32 @@
   100% {
     left: 125%;
   }
+}
+
+/* doctors slider */
+.doctors .slick-dots li {
+  height: 8px;
+}
+.doctors .slick-dots li button {
+  height: 8px;
+  width: 20px;
+}
+.doctors .slick-dots li button:before {
+  height: 8px;
+  width: 20px;
+  content: "";
+  background-color: #4575bd;
+  border-radius: 10px;
+}
+
+.doctors .slick-dots li.slick-active {
+  width: 35px;
+  transition: all 0.5s;
+}
+.doctors .slick-dots li.slick-active button {
+  width: 35px;
+}
+.doctors .slick-dots li.slick-active button:before {
+  width: 35px;
+  transition: all 0.5s;
 }

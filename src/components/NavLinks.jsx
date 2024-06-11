@@ -27,7 +27,7 @@ const NavLinks = ({ color, weight, onClick }) => {
           to="/doctors"
           className={`hover:${color} hover:${weight} transition-all tracking-wider`}
         >
-          Doctors
+          Our doctors
         </NavLink>
       </li>
       <li>
@@ -39,6 +39,16 @@ const NavLinks = ({ color, weight, onClick }) => {
           Contact
         </NavLink>
       </li>
+      <li>
+        <NavLink
+          onClick={onClick}
+          to="/contact"
+          className={`hover:${color} hover:${weight} transition-all tracking-wider`}
+        >
+          My appointments
+        </NavLink>
+      </li>
+      <li>Ai Health</li>
     </>
   );
 };

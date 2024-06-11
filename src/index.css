@@ -8,7 +8,7 @@
 
 @layer base {
   html {
-    @apply font-archivo scroll-smooth;
+    @apply font-archivo scroll-smooth bg-white;
   }
 
   .single-specialities {

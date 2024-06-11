@@ -12,7 +12,8 @@ function Doctors() {
     slidesToShow: 3,
     slidesToScroll: 2,
     autoplay: true,
-    cssEase: "ease-out",
+    // cssEase: "ease-out",
+    cssEase: "smooth",
     pauseOnHover: true,
   };
 
